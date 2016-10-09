@@ -5,7 +5,7 @@ import (
     "strconv"
 )
 
-func IsPalindrome(x int) bool {
+func isPalindrome(x int) bool {
     s := strconv.Itoa(x)
     l := len(s)
     h := int(math.Floor(float64(l / 2)))
